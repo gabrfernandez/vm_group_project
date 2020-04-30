@@ -8,3 +8,6 @@ def login_page(request):
 
 def home_page(request):
     return render(request, "home-page.html")
+
+def login_action(request):
+    return redirect("/home")
